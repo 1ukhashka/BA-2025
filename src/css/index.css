@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    font-family: 'Jura', sans-serif; /* Базовий шрифт Jura */
+  }
+
+  /* Хедер */
+  header {
+    background-color: #0A2A4F;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+  }
+
+  /* Логотип */
+  .logo {
+    font-family: 'K2D', sans-serif;
+    font-weight: 700; /* Bold */
+    font-size: 24px;
+  }
+
+  /* Навігація */
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 25px;
+    font-family: 'Jura', sans-serif;
+    font-weight: 500; /* Medium */
+    transition: color 0.3s;
+  }
+
+  nav a:hover {
+    color: #00AEEF; /* Ховер синій */
+  }
